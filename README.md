@@ -19,3 +19,9 @@ inherit_from:
   - https://raw.githubusercontent.com/qmee/dev-public-utils/main/styleguides/rubocop-specs.yml
 ```
 As with regular cops, any overrides can be added after this block.
+
+**IMPORTANT!** You are heavily encouraged to add the following to your `.gitignore` file to avoid committing noisy rubocop cached files
+##### **`.gitignore`**
+```
+.rubocop-https*
+```
