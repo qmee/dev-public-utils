@@ -1,0 +1,17 @@
+inherit_from:
+  - https://raw.githubusercontent.com/qmee/dev-public-utils/main/styleguides/rubocop.yml
+
+Metrics/BlockLength:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 135
+
+Metrics/MethodLength:
+  Max: 30
