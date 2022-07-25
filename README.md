@@ -27,6 +27,7 @@ To use the different set of rules for spec files, add an additional `.rubocop.ym
 
 ```yaml
 inherit_from:
+  - ../.rubocop.yml
   - https://raw.githubusercontent.com/qmee/dev-public-utils/main/styleguides/rubocop-specs.yml
 ```
 
