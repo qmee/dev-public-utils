@@ -1,6 +1,5 @@
 inherit_from:
   - https://raw.githubusercontent.com/qmee/dev-public-utils/main/styleguides/rubocop.yml
-  - ../.rubocop.yml
 
 Metrics/BlockLength:
   Enabled: false
